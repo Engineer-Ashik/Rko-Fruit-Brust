@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rko-Fruit-Brust</title>
+    <title>Rko-Fruit-Burst</title>
+
+    <!--Tailwind and DaisyUi-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--Lato Google font Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+
+    <!--Stylesheet connected-->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!--Font Awesome connection link-->
+    <script src="https://kit.fontawesome.com/f558265ee4.js" crossorigin="anonymous"></script>
+
+
+    <!--Tailwind Custom Color-->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        paraclr: '#121212',
+                        btnclr: '#F85559',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .lato-medium {
+            font-family: "Lato", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+        }
+
+        .lato-regular {
+            font-family: "Lato", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .lato-semibold {
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .lato-bold {
+            font-family: "Lato", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .lato-extrabold {
+            font-family: "Lato", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+    </style>
+
 </head>
+
+
 <body>
-    
+    <header>
+        <h1 class="lato font-extrabold bg-zinc-950 text-white text-center">RKO Fruit Burst Website</h1>
+    </header>
+
+    <main>
+        <nav class="bg-btnclr flex justify-between items-center rounded-3xl">
+            <div class="lato-medium font-medium text-white flex items-center gap-3">
+                <h5>Home</h5>
+                <h5>About Us</h5>
+                <h5>Shop</h5>
+                <h5>All Fruits</h5>
+            </div>
+
+            <div class="lato-bold text-white flex items-center">
+                <img src="/images/logo.png">
+                <h3>Fruit Burst</h3>
+            </div>
+
+            <div>
+                <input type="text" placeholder="   Search here" class="lato-regular bg-white rounded-3xl"> <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+            </div>
+        </nav>
+    </main>
+
+    <footer></footer>
 </body>
+
 </html>
