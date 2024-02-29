@@ -77,20 +77,21 @@
     </header>
 
     <main>
-        <nav class="bg-btnclr flex justify-between items-center rounded-3xl">
-            <div class="lato-medium font-medium text-white flex items-center gap-3">
+        <nav class="bg-white lg:bg-btnclr flex justify-between items-center rounded-3xl px-1 lg:px-8 ">
+            <div class="lato-medium text-white flex items-center gap-3 invisible lg:visible">
                 <h5>Home</h5>
                 <h5>About Us</h5>
                 <h5>Shop</h5>
                 <h5>All Fruits</h5>
             </div>
 
-            <div class="lato-bold text-white flex items-center">
+            <div class="lato-extrabold lg:lato-bold text-black lg:text-white flex items-center gap-3">
                 <img src="/images/logo.png">
                 <h3>Fruit Burst</h3>
+                <i class="fa-solid fa-bars visible lg:invisible"></i>
             </div>
 
-            <div>
+            <div class="invisible lg:visible ">
                 <input type="text" placeholder="   Search here" class="lato-regular bg-white rounded-3xl"> <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i> </button>
             </div>
         </nav>
