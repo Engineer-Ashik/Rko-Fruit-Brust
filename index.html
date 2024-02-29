@@ -77,6 +77,7 @@
     </header>
 
     <main>
+        <!--Navbar Section-->
         <nav class="bg-white lg:bg-btnclr flex justify-between items-center rounded-3xl px-1 lg:px-8 ">
             <div class="lato-medium text-white flex items-center gap-3 invisible lg:visible">
                 <h5>Home</h5>
@@ -85,16 +86,35 @@
                 <h5>All Fruits</h5>
             </div>
 
-            <div class="lato-extrabold lg:lato-bold text-black lg:text-white flex items-center gap-3">
+            <div class="lato-extrabold lg:lato-bold text-black lg:text-white flex items-center lg:gap-3">
                 <img src="/images/logo.png">
-                <h3>Fruit Burst</h3>
-                <i class="fa-solid fa-bars visible lg:invisible"></i>
+                <h3 class="text-xs lg:text-xl">Fruit Burst</h3>
+                <!-- Google Fontawesome icon
+                <i class="fa-solid fa-bars visible lg:invisible"></i> -->
+
+                <!--daisyul icon-->
+                <button class="btn btn-square btn-ghost visible lg:invisible">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        class="inline-block w-5 h-5 stroke-current">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
             </div>
 
             <div class="invisible lg:visible ">
-                <input type="text" placeholder="   Search here" class="lato-regular bg-white rounded-3xl"> <button type="submit"> <i class="fa-solid fa-magnifying-glass"></i> </button>
+                <input type="text" placeholder="   Search here" class="lato-regular bg-white rounded-3xl"> <button
+                    type="submit"> <i class="fa-solid fa-magnifying-glass"></i> </button>
             </div>
         </nav>
+
+        <!--Banner Section-->
+        <section>
+            <div>
+                <img src="images/banner4.png">
+            </div>
+        </section>
+
     </main>
 
     <footer></footer>
