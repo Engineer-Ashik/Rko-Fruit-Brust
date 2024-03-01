@@ -78,7 +78,7 @@
 
     <main>
         <!--Navbar Section-->
-        <nav class="bg-white lg:bg-btnclr flex justify-between items-center rounded-3xl px-1 lg:px-8 ">
+        <nav class="bg-white lg:bg-btnclr flex justify-evenly items-center rounded-3xl px-1 lg:px-8 mx-auto lg:mx-56">
             <div class="lato-medium text-white flex items-center gap-3 invisible lg:visible">
                 <h5>Home</h5>
                 <h5>About Us</h5>
@@ -86,9 +86,11 @@
                 <h5>All Fruits</h5>
             </div>
 
-            <div class="lato-extrabold lg:lato-bold text-black lg:text-white flex items-center lg:gap-3">
-                <img src="/images/logo.png">
-                <h3 class="text-xs lg:text-xl">Fruit Burst</h3>
+            <div class="lato-extrabold lg:lato-bold text-black lg:text-white flex items-center justify-center gap-52 lg:gap-0 -mx-52 lg:-mx-0">
+                <div class="flex items-center gap-3">
+                    <img src="/images/logo.png">
+                    <h3 class="text-xs lg:text-xl">Fruit Burst</h3>
+                </div>
                 <!-- Google Fontawesome icon
                 <i class="fa-solid fa-bars visible lg:invisible"></i> -->
 
@@ -109,22 +111,22 @@
         </nav>
 
         <!--Banner Section-->
-        <section>
+        <section class="mx-auto lg:mx-56">
             <div id="slide1" class="relative">
-            <div>
+            <div class="flex justify-center">
                 <img src="images/banner1.png">
             </div>
-            <div class="flex flex-col items-center text-center gap-2 relative bottom-96">
-                <h1 class="lato font-extrabold text-7xl text-white">Exotic tastes at your<br>doorstep</h1>
+            <div class="flex flex-col items-center text-center gap-2 relative bottom-44 lg:bottom-96">
+                <h1 class="lato font-medium lg:font-extrabold text-4xl lg:text-7xl text-white">Exotic tastes at your<br>doorstep</h1>
                 <p class="lato font-medium text-xl">We supply highly quality organic products</p>
-                <button class="btn btn-xs bg-btnclr text-white lato font-extrabold text-xl sm:btn-sm md:btn-md lg:btn-lg">Shop Now</button>
+                <button class="btn btn-xs bg-btnclr text-white lato font-medium lg:font-extrabold text-sm lg:text-xl sm:btn-sm md:btn-md lg:btn-lg">Shop Now</button>
             </div>
-            <div class="flex justify-evenly bg-white rounded-lg relative bottom-96">
-                <img src="/images/fruit1.png" class="w-36 h-28">
-                <img src="/images/fruit2.png">
-                <img src="/images/fruit3.png">
-                <img src="/images/fruit4.png">
-                <img src="/images/fruit5.png">
+            <div class="flex justify-evenly bg-white text-center text-black lato lato-bold rounded-lg relative bottom-80 invisible lg:visible mx-44">
+                <figure> <img src="/images/fruit1.png" class="w-36 h-40"><figcaption>Grape</figcaption></figure>
+                <figure> <img src="/images/fruit2.png" class="w-36 h-40"><figcaption>Orange</figcaption></figure>
+                <figure> <img src="/images/fruit3.png" class="w-36 h-40"><figcaption>Mango</figcaption></figure>
+                <figure> <img src="/images/fruit4.png" class="w-36 h-40"><figcaption>Strawberry</figcaption></figure>
+                <figure> <img src="/images/fruit5.png" class="w-36 h-40"><figcaption>Pomegranate</figcaption></figure>
             </div>
         </div>
         </section>
