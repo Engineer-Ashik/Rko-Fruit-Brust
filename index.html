@@ -28,7 +28,7 @@
             theme: {
                 extend: {
                     colors: {
-                        paraclr: '#121212',
+                        paraclr: '#787878',
                         btnclr: '#F85559',
                     }
                 }
@@ -86,7 +86,8 @@
                 <h5>All Fruits</h5>
             </div>
 
-            <div class="lato-extrabold lg:lato-bold text-black lg:text-white flex items-center justify-center gap-52 lg:gap-0 -mx-52 lg:-mx-0">
+            <div
+                class="lato-extrabold lg:lato-bold text-black lg:text-white flex items-center justify-center gap-52 lg:gap-0 -mx-52 lg:-mx-0">
                 <div class="flex items-center gap-3">
                     <img src="/images/logo.png">
                     <h3 class="text-xs lg:text-xl">Fruit Burst</h3>
@@ -111,23 +112,266 @@
         </nav>
 
         <!--Banner Section-->
-        <section class="mx-auto lg:mx-56">
-            <div id="slide1" class="relative">
-            <div class="flex justify-center">
-                <img src="images/banner1.png">
+        <section class="bg-red-800 mx-auto lg:mx-56">
+            <!--Slide_1-->
+            <div id="slide1" class="overflow-hidden relative">
+                <div class="flex justify-center">
+                    <img src="images/banner1.png">
+                </div>
+                <div class="flex justify-between relative bottom-72 mx-3">
+                    <a href="#slide4"><i
+                            class="fa-solid fa-circle-arrow-left bg-black text-gray-700 rounded-full"></i></a>
+                    <a href="#slide2"><i
+                            class="fa-solid fa-circle-arrow-right bg-black text-gray-700 rounded-full"></i></a>
+                </div>
+                <div class="flex flex-col items-center text-center gap-2 relative bottom-44 lg:bottom-96">
+                    <h1 class="lato font-medium lg:font-extrabold text-4xl lg:text-7xl text-white">Exotic tastes at
+                        your<br>doorstep</h1>
+                    <p class="lato font-medium text-xl">We supply highly quality organic products</p>
+                    <button
+                        class="btn btn-xs bg-btnclr text-white lato font-medium lg:font-extrabold text-sm lg:text-xl sm:btn-sm md:btn-md lg:btn-lg">Shop
+                        Now</button>
+                </div>
+                <div
+                    class="flex justify-between gap-10 bg-white text-center text-black lato lato-bold rounded-lg absolute bottom-80 invisible lg:visible">
+                    <figure> <img src="/images/fruit1.png" class="w-36 h-40">
+                        <figcaption>Grape</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit2.png" class="w-36 h-40">
+                        <figcaption>Orange</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit3.png" class="w-36 h-40">
+                        <figcaption>Mango</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit4.png" class="w-36 h-40">
+                        <figcaption>Strawberry</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit5.png" class="w-36 h-40">
+                        <figcaption>Pomegranate</figcaption>
+                    </figure>
+                </div>
             </div>
-            <div class="flex flex-col items-center text-center gap-2 relative bottom-44 lg:bottom-96">
-                <h1 class="lato font-medium lg:font-extrabold text-4xl lg:text-7xl text-white">Exotic tastes at your<br>doorstep</h1>
-                <p class="lato font-medium text-xl">We supply highly quality organic products</p>
-                <button class="btn btn-xs bg-btnclr text-white lato font-medium lg:font-extrabold text-sm lg:text-xl sm:btn-sm md:btn-md lg:btn-lg">Shop Now</button>
-            </div>
-            <div class="flex justify-evenly bg-white text-center text-black lato lato-bold rounded-lg relative bottom-80 invisible lg:visible mx-44">
-                <figure> <img src="/images/fruit1.png" class="w-36 h-40"><figcaption>Grape</figcaption></figure>
-                <figure> <img src="/images/fruit2.png" class="w-36 h-40"><figcaption>Orange</figcaption></figure>
-                <figure> <img src="/images/fruit3.png" class="w-36 h-40"><figcaption>Mango</figcaption></figure>
-                <figure> <img src="/images/fruit4.png" class="w-36 h-40"><figcaption>Strawberry</figcaption></figure>
-                <figure> <img src="/images/fruit5.png" class="w-36 h-40"><figcaption>Pomegranate</figcaption></figure>
-            </div>
+
+            <!--Slide-2
+            <div id="slide2" class="hidden relative">
+                <div class="flex justify-center">
+                    <img src="images/banner2.png">
+                </div>
+                <div class="flex justify-between absolute bottom-52">
+                    <a href="#slide1"><i class="fa-solid fa-circle-arrow-left"></i></a>
+                    <a href="#slide3"><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+                <div class="flex flex-col items-center text-center gap-2 relative bottom-44 lg:bottom-96">
+                    <h1 class="lato font-medium lg:font-extrabold text-4xl lg:text-7xl text-white">Exotic tastes at
+                        your<br>doorstep</h1>
+                    <p class="lato font-medium text-xl">We supply highly quality organic products</p>
+                    <button
+                        class="btn btn-xs bg-btnclr text-white lato font-medium lg:font-extrabold text-sm lg:text-xl sm:btn-sm md:btn-md lg:btn-lg">Shop
+                        Now</button>
+                </div>
+                <div
+                    class="flex justify-evenly bg-white text-center text-black lato lato-bold rounded-lg relative bottom-80 invisible lg:visible mx-44">
+                    <figure> <img src="/images/fruit1.png" class="w-36 h-40">
+                        <figcaption>Grape</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit2.png" class="w-36 h-40">
+                        <figcaption>Orange</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit3.png" class="w-36 h-40">
+                        <figcaption>Mango</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit4.png" class="w-36 h-40">
+                        <figcaption>Strawberry</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit5.png" class="w-36 h-40">
+                        <figcaption>Pomegranate</figcaption>
+                    </figure>
+                </div>
+            </div> -->
+
+            <!--Slide-3
+            <div id="slide3" class="hidden relative">
+                <div class="flex justify-center">
+                    <img src="images/banner3.png">
+                </div>
+                <div class="flex justify-between relative bottom-52">
+                    <a href="#slide2"><i class="fa-solid fa-circle-arrow-left"></i></a>
+                    <a href="#slide4"><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+                <div class="flex flex-col items-center text-center gap-2 relative bottom-44 lg:bottom-96">
+                    <h1 class="lato font-medium lg:font-extrabold text-4xl lg:text-7xl text-white">Exotic tastes at
+                        your<br>doorstep</h1>
+                    <p class="lato font-medium text-xl">We supply highly quality organic products</p>
+                    <button
+                        class="btn btn-xs bg-btnclr text-white lato font-medium lg:font-extrabold text-sm lg:text-xl sm:btn-sm md:btn-md lg:btn-lg">Shop
+                        Now</button>
+                </div>
+                <div
+                    class="flex justify-evenly bg-white text-center text-black lato lato-bold rounded-lg relative bottom-80 invisible lg:visible mx-44">
+                    <figure> <img src="/images/fruit1.png" class="w-36 h-40">
+                        <figcaption>Grape</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit2.png" class="w-36 h-40">
+                        <figcaption>Orange</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit3.png" class="w-36 h-40">
+                        <figcaption>Mango</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit4.png" class="w-36 h-40">
+                        <figcaption>Strawberry</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit5.png" class="w-36 h-40">
+                        <figcaption>Pomegranate</figcaption>
+                    </figure>
+                </div>
+            </div> -->
+
+            <!--Slide-4
+            <div id="slide4" class="hidden relative">
+                <div class="flex justify-center">
+                    <img src="images/banner4.png">
+                </div>
+                <div class="flex justify-between relative bottom-52">
+                    <a href="#slide3"><i class="fa-solid fa-circle-arrow-left"></i></a>
+                    <a href="#slide1"><i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+                <div class="flex flex-col items-center text-center gap-2 relative bottom-44 lg:bottom-96">
+                    <h1 class="lato font-medium lg:font-extrabold text-4xl lg:text-7xl text-white">Exotic tastes at
+                        your<br>doorstep</h1>
+                    <p class="lato font-medium text-xl">We supply highly quality organic products</p>
+                    <button
+                        class="btn btn-xs bg-btnclr text-white lato font-medium lg:font-extrabold text-sm lg:text-xl sm:btn-sm md:btn-md lg:btn-lg">Shop
+                        Now</button>
+                </div>
+                <div
+                    class="flex justify-evenly bg-white text-center text-black lato lato-bold rounded-lg relative bottom-80 invisible lg:visible mx-44">
+                    <figure> <img src="/images/fruit1.png" class="w-36 h-40">
+                        <figcaption>Grape</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit2.png" class="w-36 h-40">
+                        <figcaption>Orange</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit3.png" class="w-36 h-40">
+                        <figcaption>Mango</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit4.png" class="w-36 h-40">
+                        <figcaption>Strawberry</figcaption>
+                    </figure>
+                    <figure> <img src="/images/fruit5.png" class="w-36 h-40">
+                        <figcaption>Pomegranate</figcaption>
+                    </figure>
+                </div>
+            </div> -->
+
+        </section>
+
+        <!--Deal of Section-->
+        <section class="mx-auto lg:mx-56 bg-white">
+            <div>
+                <div class="flex justify-between">
+                    <!--left-->
+                    <div>
+                        <h2 class="lato font-extrabold text-5xl text-black leading-normal">Deal of the day</h2>
+                        <p class="lato font-medium text-base text-paraclr leading-normal py-3">Contrary to popular belief, is
+                            not simply random text. It has roots in a piece of
+                            classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div>
+                    <!--right-->
+                    <div class="flex items-center text-center gap-3">
+                        <div>
+                            <h2 class="lato font-extrabold text-5xl text-black leading-normal">29<i
+                                    class="fa-solid fa-ellipsis-vertical text-3xl mx-1"></i></h2>
+                            <p class="lato font-medium text-base text-paraclr leading-normal">Days</p>
+                        </div>
+                        <div>
+                            <h2 class="lato font-extrabold text-5xl text-black leading-normal">15<i
+                                    class="fa-solid fa-ellipsis-vertical text-3xl mx-1"></i></h2>
+                            <p class="lato font-medium text-base text-paraclr leading-normal">Hours</p>
+                        </div>
+                        <div>
+                            <h2 class="lato font-extrabold text-5xl text-black leading-normal">25<i
+                                    class="fa-solid fa-ellipsis-vertical text-3xl mx-1"></i></h2>
+                            <p class="lato font-medium text-base text-paraclr leading-normal">Minutes</p>
+                        </div>
+                        <div>
+                            <h2 class="lato font-extrabold text-5xl text-black leading-normal">08</h2>
+                            <p class="lato font-medium text-base text-paraclr leading-normal">Seconds</p>
+                        </div>
+                    </div>
+                </div>
+                <!--Fruits Sidebar-->
+                <div class="flex justify-center justify-evenly gap-3">
+                    <!--Apple-->
+                    <div class="text-center border-2 border-gray-300  w-[342px]">
+                        <div class="flex justify-center">
+                            <img src="/images/fruit6.png">
+                        </div>
+                        <h2 class="lato font-bold text-2xl text-black">12.90$ - 18.85$</h2>
+                        <p class="lato font-medium text-base text-gray-500">Apples</p>
+                        <div>
+                            <i class="fa-solid fa-star text-btnclr"></i>
+                            <i class="fa-solid fa-star-half text-btnclr"></i>
+                            <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                            <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                            <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                        </div>
+                        <p class="lato font-bold text-lg text-btnclr">Details</p>
+                    </div>
+
+                    <!--Orange-->
+                    <div class="text-center border-2 border-gray-300  w-[342px]">
+                        <div class="flex justify-center">
+                            <img src="/images/fruit7.png">
+                        </div>
+                        <h2 class="lato font-bold text-2xl text-black">12.90$ - 18.85$</h2>
+                        <p class="lato font-medium text-base text-gray-500">Orange</p>
+                        <div>
+                            <i class="fa-solid fa-star text-btnclr"></i>
+                            <i class="fa-solid fa-star-half text-btnclr"></i>
+                            <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                            <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                            <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                        </div>
+                        <p class="lato font-bold text-lg text-btnclr">Details</p>
+                    </div>
+
+                    <!--Red Dragon-->
+                    <div class="text-center border-2 border-gray-300 w-[342px]">
+                        <div class="flex justify-center">
+                            <img src="/images/fruit8.png">
+                        </div>
+                        <h2 class="lato font-bold text-2xl text-black">12.90$ - 18.85$</h2>
+                        <p class="lato font-medium text-base text-gray-500">Red Dragon </p>
+                        <div>
+                            <i class="fa-solid fa-star text-btnclr"></i>
+                            <i class="fa-solid fa-star-half text-btnclr"></i>
+                            <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                            <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                            <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                        </div>
+                        <p class="lato font-bold text-lg text-btnclr">Details</p>
+                    </div>
+
+                    <!--Banana-->
+                    <div class="text-center border-2 border-gray-300 w-[342px]">
+                        <div class="flex justify-center">
+                            <img src="/images/fruit9.png">
+                        </div>
+                        <h2 class="lato font-bold text-2xl text-black">12.90$ - 18.85$</h2>
+                        <p class="lato font-medium text-base text-gray-500">Banana</p>
+                        <div>
+                            <i class="fa-solid fa-star text-btnclr"></i>
+                            <i class="fa-solid fa-star-half text-btnclr"></i>
+                            <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                            <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                            <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                        </div>
+                        <p class="lato font-bold text-lg text-btnclr">Details</p>
+                    </div>
+                </div>
+                <div class="flex justify-center py-6">
+                    <button class="lato font-extrabold text-xl text-white bg-btnclr w-32 h-16 rounded-lg">Shop All</button>
+                </div>
         </div>
         </section>
 
