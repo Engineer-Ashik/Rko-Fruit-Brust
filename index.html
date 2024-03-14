@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 
     <!--Stylesheet connected-->
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css" />
 
     <!--Font Awesome connection link-->
     <script src="https://kit.fontawesome.com/f558265ee4.js" crossorigin="anonymous"></script>
@@ -78,7 +78,8 @@
 
     <main>
         <!--Navbar Section-->
-        <nav class="bg-white lg:bg-btnclr flex justify-evenly items-center rounded-3xl px-1 my-1 lg:my-8 mx-auto lg:mx-56">
+        <nav
+            class="bg-white lg:bg-btnclr flex justify-evenly items-center rounded-3xl px-1 my-1 lg:my-8 mx-auto lg:mx-56">
             <div class="lato-medium text-white flex items-center gap-3 invisible lg:visible">
                 <h5>Home</h5>
                 <h5>About Us</h5>
@@ -272,7 +273,8 @@
                     <!--left-->
                     <div>
                         <h2 class="lato font-extrabold text-5xl text-black leading-normal">Deal of the day</h2>
-                        <p class="lato font-medium text-base text-paraclr leading-normal py-3">Contrary to popular belief, is
+                        <p class="lato font-medium text-base text-paraclr leading-normal py-3">Contrary to popular
+                            belief, is
                             not simply random text. It has roots in a piece of
                             classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
                     </div>
@@ -300,9 +302,10 @@
                     </div>
                 </div>
                 <!--Fruits Sidebar-->
-                <div class="grid grid-rows-1 lg:grid-cols-4 justify-center gap-3">    <!--flex justify-center justify-evenly-->
+                <div class="grid grid-rows-1 lg:grid-cols-4 justify-center gap-3">
+                    <!--flex justify-center justify-evenly-->
                     <!--Apple-->
-                    <div class="text-center border-2 border-gray-300 w-96">
+                    <div class="text-center border-2 border-gray-300 w-96 lg:w-auto">
                         <div class="flex justify-center">
                             <img src="/images/fruit6.png">
                         </div>
@@ -319,7 +322,7 @@
                     </div>
 
                     <!--Orange-->
-                    <div class="text-center border-2 border-gray-300 w-96">
+                    <div class="text-center border-2 border-gray-300 w-96 lg:w-auto">
                         <div class="flex justify-center">
                             <img src="/images/fruit7.png">
                         </div>
@@ -336,7 +339,7 @@
                     </div>
 
                     <!--Red Dragon-->
-                    <div class="text-center border-2 border-gray-300 w-96">
+                    <div class="text-center border-2 border-gray-300 w-96 lg:w-auto">
                         <div class="flex justify-center">
                             <img src="/images/fruit8.png">
                         </div>
@@ -353,7 +356,7 @@
                     </div>
 
                     <!--Banana-->
-                    <div class="text-center border-2 border-gray-300 w-96">
+                    <div class="text-center border-2 border-gray-300 w-96 lg:w-auto">
                         <div class="flex justify-center">
                             <img src="/images/fruit9.png">
                         </div>
@@ -370,27 +373,78 @@
                     </div>
                 </div>
                 <div class="flex justify-center py-6">
-                    <button class="lato font-extrabold text-xl text-white bg-btnclr w-32 h-16 rounded-lg">Shop All</button>
+                    <button class="lato font-extrabold text-xl text-white bg-btnclr w-32 h-16 rounded-lg">Shop
+                        All</button>
                 </div>
-        </div>
+            </div>
         </section>
 
         <!--Meet the team Section-->
         <section class="mx-auto lg:mx-56 bg-white">
-            <div class="absolute">
-                <img src="/images/banner1.png" class="opacity-70">
-            <div class="text-center absolute top-60">
-            <h1 class="lato font-extrabold text-5xl text-white">Meet the team section</h1>
-            <p class="lato font-medium text-base text-white">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-            <div class="flex justify-center">
-                <img src="/images/member1.png" class="rounded-full"></img>
-            </div>
-                <h1 class="lato font-bold text-2xl text-white">Awlad Hussain</h1>
-                <p class="lato font-medium text-base text-white">Fruit Expert</p>
-                <div>
-                    <i class="fa-brands fa-facebook bg-white text-btnclr"></i>
-                    <i class="fa-brands fa-twitter bg-white text-btnclr"></i>
-                    <i class="fa-brands fa-linkedin bg-white text-btnclr"></i>
+            <div class="absolute bg-white">
+                <div><img src="/images/banner1.png" class="w-full opacity-70"></div>
+            <div class="absolute lg:top-48 lg:left-56">
+                    <div class="text-center w-auto">
+                    <h1 class="lato font-extrabold text-5xl text-white">Meet the team section</h1>
+                    <p class="lato font-medium text-base text-white">Contrary to popular belief, is not simply random
+                        text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000
+                        years old.</p> </div>
+
+                    <!--Team members slide-->
+                    <div class="flex justify-evenly">
+                        <div class="text-center">
+                        <div class="flex justify-center">
+                            <img src="/images/member1.png" class="rounded-full"></img>
+                        </div>
+                        <h1 class="lato font-bold text-2xl text-white">Awlad Hussain</h1>
+                        <p class="lato font-medium text-base text-white">Fruit Expert</p>
+                        <div>
+                            <i class="fa-brands fa-facebook bg-white text-btnclr rounded-full"></i>
+                            <i class="fa-brands fa-twitter bg-btnclr text-white rounded-full"></i>
+                            <i class="fa-brands fa-linkedin-in bg-btnclr text-white rounded-full"></i>
+                        </div>
+                        </div>
+
+                        <div class="text-center">
+                        <div class="flex justify-center">
+                            <img src="/images/member2.png" class="rounded-full"></img>
+                        </div>
+                        <h1 class="lato font-bold text-2xl text-white">Safia Chowdhury</h1>
+                        <p class="lato font-medium text-base text-white">Fruit Expert</p>
+                        <div>
+                            <i class="fa-brands fa-facebook bg-white text-btnclr rounded-full"></i>
+                            <i class="fa-brands fa-twitter bg-btnclr text-white rounded-full"></i>
+                            <i class="fa-brands fa-linkedin-in bg-btnclr text-white rounded-full"></i>
+                        </div>
+                        </div>
+
+                        <div class="text-center">
+                        <div class="flex justify-center">
+                            <img src="/images/member3.png" class="rounded-full"></img>
+                        </div>
+                        <h1 class="lato font-bold text-2xl text-white">Rokib Hossain</h1>
+                        <p class="lato font-medium text-base text-white">Fruit Expert</p>
+                        <div>
+                            <i class="fa-brands fa-facebook bg-white text-btnclr rounded-full"></i>
+                            <i class="fa-brands fa-twitter bg-btnclr text-white rounded-full"></i>
+                            <i class="fa-brands fa-linkedin-in bg-btnclr text-white rounded-full"></i>
+                        </div>
+                        </div>
+                        
+                        <div class="text-center">
+                        <div class="flex justify-center">
+                            <img src="/images/member4.png" class="rounded-full"></img>
+                        </div>
+                        <h1 class="lato font-bold text-2xl text-white">Chaity</h1>
+                        <p class="lato font-medium text-base text-white">Fruit Expert</p>
+                        <div>
+                            <i class="fa-brands fa-facebook bg-white text-btnclr rounded-full"></i>
+                            <i class="fa-brands fa-twitter bg-btnclr text-white rounded-full"></i>
+                            <i class="fa-brands fa-linkedin-in bg-btnclr text-white rounded-full"></i>
+                        </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
