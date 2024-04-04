@@ -7,7 +7,7 @@
     <title>Rko-Fruit-Burst</title>
 
     <!--Tailwind and DaisyUi-->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!--Lato Google font Link-->
@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 
     <!--Stylesheet connected-->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css">
 
     <!--Font Awesome connection link-->
     <script src="https://kit.fontawesome.com/f558265ee4.js" crossorigin="anonymous"></script>
@@ -73,13 +73,12 @@
 
 <body class="bg-white">
     <header>
-        <h1 class="lato font-extrabold bg-zinc-950 text-white text-center">RKO Fruit Burst Website</h1>
+        <h1 class="lato font-extrabold bg-black text-white text-center">RKO Fruit Burst Website</h1>
     </header>
 
     <main>
         <!--Navbar Section-->
-        <nav
-            class="bg-white lg:bg-btnclr flex justify-evenly items-center rounded-3xl px-1 my-1 lg:my-8 mx-auto lg:mx-56">
+        <nav class="bg-white lg:bg-btnclr flex justify-evenly items-center rounded-3xl px-1 my-1 lg:my-8 mx-auto lg:mx-56">
             <div class="lato font-medium text-white flex items-center gap-3 invisible lg:visible">
                 <h5>Home</h5>
                 <h5>About Us</h5>
@@ -126,9 +125,9 @@
                     <i class="fa-solid fa-circle-arrow-left fa-2x bg-white text-black rounded-full"></i>
                     <i class="fa-solid fa-circle-arrow-right fa-2x bg-white text-black rounded-full"></i>
                 </div>
-            <div class="absolute top-10 lg:top-32 -left-36 lg:left-36">
+            <div class="absolute top-9 lg:top-44 -right-16 lg:right-[500px]">
                 <!--written part-->
-                <div class="flex flex-col items-center text-center gap-0 lg:gap-2 ">
+                <div class="flex flex-col justify-center items-center text-center gap-0 lg:gap-4 mb-72">
                     <h1 class="lato font-medium lg:font-extrabold text-2xl lg:text-7xl text-white">Exotic tastes at
                         your<br>doorstep</h1>
                     <p class="lato font-medium text-sm lg:text-xl text-white py-2 lg:py-6">We supply highly quality organic products</p>
@@ -137,7 +136,7 @@
                         Now</button>
                 </div>
                 <!--Fruit Box part-->
-                <div class="flex justify-evenly gap-28 items-center bg-white text-center text-black lato lato-bold rounded-lg invisible lg:visible w-100/4 h-52 my-20">
+                <div class="flex justify-evenly gap-28 items-center bg-white text-center text-black lato lato-bold rounded-lg invisible lg:visible w-full h-52 my-20">
                     <figure> <img src="/images/fruit1.png">
                         <figcaption>Grape</figcaption>
                     </figure>
